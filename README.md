@@ -1,7 +1,7 @@
 # YOUTUBE STORIES // SLUTPROJEKT - JAVASCRIPT FRONTEND
----
+
 ## HTML CSS JS JQUERY AJAX JSON
----
+
 ###### YOUTUBE STORIES är mitt slutprojekt för kursen Webbapplikationsutveckling för utbildningen Front-End utvecklare på [Lernia Högskoleutbildning](https://www.lernia.se/)
 
 ###### Använda teknologier & program:
