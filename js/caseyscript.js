@@ -1,17 +1,15 @@
 $(document).ready(function() {
-	$("#videos").click(function() {
-			$.getJSON("https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=5&playlistId=UUtinbF-Q-fVthA0qrFQTgXQ&key=AIzaSyDYDShU3i731fR0CmQiHpeGmXWQbEb0INQ", 
+	$.getJSON("https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=5&playlistId=UUtinbF-Q-fVthA0qrFQTgXQ&key=AIzaSyDYDShU3i731fR0CmQiHpeGmXWQbEb0INQ", 
 			function(data) {
 				$.each(data.items, function(i, item) {
 						var video = "<article>";
 						videoTitle = item.snippet.title;
 						videoId = item.snippet.resourceId.videoId;
 
-						video = "<br><p>"+videoTitle+"</p>"+'<iframe src=\"//www.youtube.com/embed/'+videoId+'\"></iframe>';
+						video += "<p>"+videoTitle+"</p>"+'<iframe src=\"//www.youtube.com/embed/'+videoId+'\"></iframe>';
 						video += "</article>";
 
 				$("#latest").append(video);
 				});
 			});
-	});
 	});

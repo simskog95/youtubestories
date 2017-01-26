@@ -6,10 +6,11 @@ $(document).ready(function() {
 						videoDate = item.snippet.publishedAt;
 						videoId = item.id.videoId;
 
-						latestVideo += "<p>"+videoDate+"</p>"+'<iframe class="embed-responsive-item" width="560" height="315" src=\"//www.youtube.com/embed/'+videoId+'\"></iframe>';
+						latestVideo += "<p>"+videoDate+"</p>"+'<iframe class="embed-responsive-item" src=\"//www.youtube.com/embed/'+videoId+'\"></iframe>'; // embed-responsive-item för att filmerna ska bli responsiva
 						latestVideo += "</article>";
+						latestVideo += "<br>";
 
-				$("#latestCasey").append(latestVideo);
+				$("#latestCasey").append(latestVideo); // Vi lägger in Caseys senaste film i div-taggen latestCasey
 				});
 			});
 	});
