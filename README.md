@@ -15,7 +15,7 @@
  * Bootstrap
 
 ###### API som har använts i projektet är [Youtube Data API v3](https://developers.google.com/youtube/v3/).
-
+---
 ### Produkten och dess syfte
 ###### Denna webbplats ska fungera som en "showreel" för de två Youtube-kanaler som jag följer slaviskt. Där man utgår från att ha så pass bra historieberättande samt kvalité som möjligt. De två kanalerna är [Casey Neistats](https://www.youtube.com/channel/UCtinbF-Q-fVthA0qrFQTgXQ) samt svenska [Jon Olssons](https://www.youtube.com/channel/UCyQb1TTrfRzQZmEfsx770qw).
 
